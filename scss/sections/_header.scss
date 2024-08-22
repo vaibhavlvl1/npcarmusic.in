@@ -1,0 +1,82 @@
+@import "../components/_animations.scss";
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  position: sticky;
+  background: linear-gradient(to right, #0d1f33 40%, rgba(0, 0, 0, 0)),
+    url("../assets/images/car.jpg") 100% 101% no-repeat;
+  background-attachment: fixed;
+}
+
+.logoContainer {
+  width: 80px;
+  height: 80px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.header-title {
+  margin-left: 20px;
+  font-size: 2em;
+  font-family: Montserrat, sans-serif;
+  font-weight: bolder;
+  background: url("../assets/images/equalizer.png") center center;
+  background-clip: text;
+  background-size: cover;
+  color: transparent;
+  animation: smoke 1s infinite forwards;
+}
+
+@keyframes smoke {
+  0% {
+    filter: drop-shadow(0 0 10px red);
+    transform: scale(0.99);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px orange);
+  }
+  100% {
+    filter: drop-shadow(0 0 10px red);
+    transform: scale(1);
+  }
+}
+
+nav {
+  margin-right: 10px;
+  a {
+    position: relative;
+    color: #00c8ff;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    transition: ease-in-out 0.5s all;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  a:hover::before {
+    width: 100%;
+  }
+}

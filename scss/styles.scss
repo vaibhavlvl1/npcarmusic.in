@@ -1,0 +1,58 @@
+// custom colors
+
+// primary
+$midnight-blue: #0d1f33;
+$electric-orange: #ff6f00;
+
+// secondary
+$light-grey: #f4f4f4;
+$silver-grey: #c4c4c4;
+$jet-black: #2b2b2b;
+
+// accents colors
+$cyan-blue: #00c8ff;
+$white: #ffffff;
+
+// import reset
+
+@use "./sections/reset";
+
+// sections
+@use "./sections/header";
+@use "./sections/landingPage";
+@use "./sections/services";
+@use "./sections/reviews";
+@use "./sections/contactForm";
+@use "./sections/footer";
+
+body {
+  position: relative;
+}
+
+.color-text {
+  color: #00c8ff;
+}
+
+.section-heading {
+  font-size: 50px;
+}
+
+.gototop {
+  width: 50px;
+  height: 50px;
+  background-color: #00c8ff;
+  font-size: 40px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+
+  z-index: 10;
+  display: none;
+
+  ion-icon {
+    transform: translate(5px, 4px);
+  }
+}
