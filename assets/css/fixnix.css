@@ -1919,7 +1919,7 @@ ul {
 
 .main-slider .swiper-slide {
   position: relative;
-  background-color: var(--fixnix-base);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .main-slider .container {
@@ -2030,7 +2030,7 @@ ul {
 }
 
 .main-slider__btn:before {
-  background-color: var(--fixnix-black);
+  background-color: var(--fixnix-base);
 }
 
 .main-slider .swiper-slide-active .main-slider__title,
