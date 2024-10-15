@@ -596,14 +596,13 @@ ul {
   padding: 28px 0;
 }
 
-.main-menu__logo a h4{
-  color:#fff ;
+.main-menu__logo a h4 {
+  color: #fff;
 }
 
-.sticky-header__content .main-menu__logo a h4{
-  color:#cf1f1f;
+.sticky-header__content .main-menu__logo a h4 {
+  color: #cf1f1f;
 }
-
 
 .main-menu__main-menu-box {
   display: block;
@@ -724,7 +723,7 @@ ul {
 }
 
 .main-menu__call-number a {
-  color:#fff;
+  color: #fff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -738,8 +737,8 @@ ul {
 }
 
 .stricky-header .main-menu__call-sub-title,
-.stricky-header .main-menu__call-number a{
-  color:#cf1f1f !important;
+.stricky-header .main-menu__call-number a {
+  color: #cf1f1f !important;
 }
 
 .main-menu .main-menu__list,
@@ -1005,8 +1004,6 @@ ul {
 .stricky-header.stricky-fixed li a {
   color: #cf1f1f !important;
 }
-
-
 
 .stricky-header .main-menu__inner {
   -webkit-box-shadow: none;
@@ -2946,7 +2943,7 @@ ul {
   z-index: 1;
 }
 
-.services-one__img:before {
+/* .services-one__img:before {
   content: "";
   position: absolute;
   top: -100%;
@@ -2964,7 +2961,7 @@ ul {
 .services-one__single:hover .services-one__img:before {
   top: 0;
   bottom: 0;
-}
+} */
 
 .services-one__img img {
   width: 100%;
@@ -3471,16 +3468,15 @@ ul {
   color: var(--fixnix-white);
 }
 
-
-.owl-next,.owl-prev{
+.owl-next,
+.owl-prev {
   background-color: #cf1f1f !important;
-  height:30px;
-  width:30px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
-  color:#e0e0e0 !important;
-  margin:10px;
+  color: #e0e0e0 !important;
+  margin: 10px;
 }
-
 
 /*--------------------------------------------------------------
 # Skill One
@@ -11069,37 +11065,36 @@ ul {
 # Site Footer
 --------------------------------------------------------------*/
 
-
 /* ****** Blog Styles  */
-.item{
-  width:350px;
-  border:#cf1f1f 1px solid;
+.item {
+  width: 350px;
+  border: #cf1f1f 1px solid;
   padding: 2px;
   border-radius: 10px;
 }
 
-.blog-content{
-  padding:0 10px;
+.blog-content {
+  padding: 0 10px;
 }
 
-.blog-content a{
-  color:#cf1f1f;
+.blog-content a {
+  color: #cf1f1f;
 }
 
-.blog-img img{
+.blog-img img {
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
-.blog-heading{
+.blog-heading {
   margin-bottom: 10px;
 }
 
-.blog-desc{
+.blog-desc {
   text-align: justify;
 }
 
-.meta-info-blog{
-  color:#cf1f1f;
+.meta-info-blog {
+  color: #cf1f1f;
 }
 /* ****** end  Blog Styles  */
